@@ -1,0 +1,21 @@
+{
+  "name": "tilt-node",
+  "version": "0.1.0",
+  "description": "Node.js client for the Tilt distributed computing platform",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["tilt", "distributed", "wasm", "batch-processing"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
